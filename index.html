@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ILIMSHOP - Продажа V-Bucks</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body style="background-image: url('background.jpg'); background-size: cover; color: white;">
+  <header>
+    <h1><a href="index.html" style="color:white; text-decoration:none;">ILIMSHOP</a></h1>
+    <nav>
+      <button onclick="openCart()">Корзина 🛒</button>
+    </nav>
+  </header>
+
+  <main>
+    <section class="products">
+      <div class="product">
+        <img src="vbucks.png" alt="1000 V-Bucks" />
+        <h2>1000 V-Bucks</h2>
+        <p>$7.99 / ≈ 730 ₽</p>
+        <button onclick="addToCart('1000 V-Bucks', 730)">Купить</button>
+      </div>
+      <div class="product">
+        <img src="vbucks.png" alt="2800 V-Bucks" />
+        <h2>2800 V-Bucks</h2>
+        <p>$19.99 / ≈ 1830 ₽</p>
+        <button onclick="addToCart('2800 V-Bucks', 1830)">Купить</button>
+      </div>
+      <div class="product">
+        <img src="vbucks.png" alt="13500 V-Bucks" />
+        <h2>13500 V-Bucks</h2>
+        <p>$79.99 / ≈ 7330 ₽</p>
+        <button onclick="addToCart('13500 V-Bucks', 7330)">Купить</button>
+      </div>
+      <div class="product">
+        <img src="vbucks.png" alt="30000 V-Bucks" />
+        <h2>30000 V-Bucks</h2>
+        <p>$169.99 / ≈ 15580 ₽</p>
+        <button onclick="addToCart('30000 V-Bucks', 15580)">Купить</button>
+      </div>
+    </section>
+
+    <section class="info">
+      <h3>Оплата</h3>
+      <a href="https://www.donationalerts.com/r/hughes01_" target="_blank" class="pay-button">💳 Оплатить (только карты США)</a>
+    </section>
+
+    <section class="footer-links">
+      <a href="https://www.youtube.com/@HugesFL" target="_blank">
+        <img src="youtube.png" alt="YouTube" class="icon" />
+      </a>
+      <a href="https://discord.gg/u5sDRQ4m2B" target="_blank">
+        <img src="discord.png" alt="Discord" class="icon" />
+      </a>
+    </section>
+  </main>
+
+  <footer>
+    <p>© ILIMSHOP 2025 | Сделано с ❤️</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
